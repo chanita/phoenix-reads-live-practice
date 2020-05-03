@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :readslive, Readslive.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "readslive_dev",
+  password: "mysecretpassword",
+  database: "chirp_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
